@@ -1,0 +1,44 @@
+{
+  "name": "another_another_resume_builder",
+  "version": "0.1.0",
+  "license": "SEE LICENSE IN LICENSE",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/?"
+  },
+  "devDependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.4",
+    "@popperjs/core": "^2.9.2",
+    "autoprefixer": "^10.4.0",
+    "bootstrap": "^5.0.2",
+    "browser-sync": "^2.27.4",
+    "cssnano": "^5.0.7",
+    "gulp": "^4.0.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-notify": "^4.0.0",
+    "gulp-plumber": "^1.2.1",
+    "gulp-postcss": "^9.0.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^5.0.0",
+    "gulp-uglify-es": "^1.0.4",
+    "jquery": "^3.6.0",
+    "pixrem": "^5.0.0",
+    "postcss": "^8.3.11",
+    "postcss-discard-comments": "^5.0.1",
+    "postcss-import": "^14.0.2",
+    "postcss-loader": "^6.2.0",
+    "rtlcss": "^3.3.0",
+    "sass": "^1.36.0"
+  },
+  "engines": {
+    "node": ">=8"
+  },
+  "browserslist": [
+    "last 2 versions"
+  ],
+  "scripts": {
+    "dev": "gulp",
+    "build": "gulp generate-assets"
+  }
+}
